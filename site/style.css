@@ -1,18 +1,28 @@
 body {
-    background-color:bisque;
-    text-align: center;
+    background-color:aquamarine;
+    text-align:left;
 }
-
-p {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display:inline;
-    font-size: 20px;
-    color:darkgreen;
+* {
+    box-sizing: border-box;
 }
 #header {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 120%;
-    text-transform: lowercase;
-    text-shadow: green;
+    font-size: 200%;
     font-weight: bold;
+}
+#main {
+    width: auto;
+    height:700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:black;
+    text-align: left;
+    background: url(istockphoto-1201164958-612x612.jpg) no-repeat bottom white;
+}
+#rules{
+    background-color:white;
+    width: auto;
+    height: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
 }
