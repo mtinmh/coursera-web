@@ -1,6 +1,6 @@
 body {
-    background-color:aquamarine;
-    text-align:left;
+    background-color:grey;
+    text-align:center;
 }
 * {
     box-sizing: border-box;
@@ -16,13 +16,31 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color:black;
-    text-align: left;
+    text-align: center;
     background: url(istockphoto-1201164958-612x612.jpg) no-repeat bottom white;
 }
-#rules{
+/* #rules{
     background-color:white;
     width: auto;
     height: 500px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 150%;
+} */
+@media (min-width: 1200px){
+    #rules{
+        background-color:rgb(5, 227, 239);
+        width: auto;
+        height: 500px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 150%;
+    }
+}
+@media (max-width: 1200px) {
+    #rules{
+        background-color:rgb(5, 227, 239);
+        width: 50%;
+        height: 250px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:small;
+    }
 }
